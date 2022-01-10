@@ -21,5 +21,6 @@ package() {
     install -Dm644 ".gtkrc-2.0" "${pkgdir}${PREFIX}/.gtkrc-2.0"
     install -Dm644 ".nanorc" "${pkgdir}${PREFIX}/.nanorc"
     install -Dm644 ".Xresources" "${pkgdir}${PREFIX}/.Xresources"
+    install -Dm644 ".dmrc" "${pkgdir}${PREFIX}/.dmrc"
     install -Dm644 "xed.dconf" "${pkgdir}${PREFIX}/xed.dconf"
 }
