@@ -1,0 +1,25 @@
+# Maintainer: S4NDM4N <sadaruwan12@gmail.com>
+
+_pkgname=xfcei3
+pkgname=eos-skel-ce-xfcei3
+pkgver=1.0
+pkgrel=2
+pkgdesc="pre user creation skel setup for Xfcei3 EOS-CE"
+arch=('any')
+groups=('eos-ce')
+url="https://github.com/EndeavourOS-Community-Editions/${_pkgname}"
+license=('GPL')
+depends=('git')
+source=("${_pkgname}::git+https://github.com/EndeavourOS-Community-Editions/${_pkgname}.git")
+sha256sums=('SKIP')
+
+package() {
+    PREFIX=/etc/skel
+    cd "$_pkgname"
+    mkdir -p "${pkgdir}${PREFIX}/.config/"
+    cp -R ".config/" "${pkgdir}${PREFIX}/"
+    install -Dm644 ".gtkrc-2.0" "${pkgdir}${PREFIX}/.gtkrc-2.0"
+    install -Dm644 ".nanorc" "${pkgdir}${PREFIX}/.nanorc"
+    install -Dm644 ".Xresources" "${pkgdir}${PREFIX}/.Xresources"
+    install -Dm644 "xed.dconf" "${pkgdir}${PREFIX}/xed.dconf"
+}
