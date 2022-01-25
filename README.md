@@ -1,4 +1,7 @@
 # xfcei3
+
+##this is testing in early state and currently not working at all!
+
 This is the very basic of config files using as much of the Endeavour i3 keybindings as possible for similarity.
 
 **XFCE4-i3 EndeavourOS Community Edition**
