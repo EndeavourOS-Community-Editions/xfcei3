@@ -8,6 +8,9 @@ This is the very basic of config files using as much of the Endeavour i3 keybind
 
 Maintainer: @fbodymechanic
 
+may this old one could help you?
+
+https://github.com/killajoe/i3-xfce4-antergos
 
 ![xfcei3](https://user-images.githubusercontent.com/86021832/146091728-93837f71-6bfc-424a-b12d-8f4f7dad3519.png)
 
