@@ -8,6 +8,9 @@ This is the very basic of config files using as much of the Endeavour i3 keybind
 
 Maintainer: @fbodymechanic
 
+https://forum.endeavouros.com/t/tutorial-easy-setup-endeavour-xfce-i3-tiling-window-manager/13171
+
+
 may this old one could help you?
 
 https://github.com/killajoe/i3-xfce4-antergos
